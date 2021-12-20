@@ -1,9 +1,16 @@
 #contact_me{
+    .underline_subtitle{
+        margin-bottom: 1.5rem !important;
+        background: black;
+    }
     div{
         div{
-            img{
-                width: 200px;
-                height: 300px;
+            .contact_me_img{
+                width: 30px;
+                height: 30px;
+            }
+            a{
+                color: black;
             }
         }
     }

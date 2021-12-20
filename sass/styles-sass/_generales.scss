@@ -30,4 +30,16 @@ body{
             }            
         }
     }
+    footer{
+        section{
+            .underline_subtitle{
+                display: block;
+                width: 61px;
+                border: 1px solid #2a2222 !important;
+                margin: 0 auto !important;
+                position: relative;
+                bottom: 4px;
+            }            
+        }
+    }
 }

@@ -30,6 +30,15 @@ body main section .underline_subtitle {
   bottom: 4px;
 }
 
+body footer section .underline_subtitle {
+  display: block;
+  width: 61px;
+  border: 1px solid #2a2222 !important;
+  margin: 0 auto !important;
+  position: relative;
+  bottom: 4px;
+}
+
 header {
   width: 100%;
   padding-bottom: 2rem !important;
@@ -223,8 +232,17 @@ header .cv:hover {
   font-size: 1.2rem;
 }
 
-#contact_me div div img {
-  width: 200px;
-  height: 300px;
+#contact_me .underline_subtitle {
+  margin-bottom: 1.5rem !important;
+  background: black;
+}
+
+#contact_me div div .contact_me_img {
+  width: 30px;
+  height: 30px;
+}
+
+#contact_me div div a {
+  color: black;
 }
 /*# sourceMappingURL=styles.css.map */
