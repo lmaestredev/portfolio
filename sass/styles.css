@@ -47,6 +47,7 @@ header .navbar div a {
 
 header .navbar .logo:hover,
 header .navbar div a:hover {
+  font-size: 1.1rem;
   color: #afa8a8;
 }
 
@@ -96,8 +97,8 @@ header .title_container {
 header .title_container .profile_pic {
   width: 220px;
   height: 220px;
-  -webkit-clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
-          clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
 }
 
 header .title_container .since_text {
@@ -126,17 +127,16 @@ header .title_container .description_text {
   color: #ccc;
 }
 
-header div .start-btn {
-  background: transparent;
-  width: 40px !important;
-  height: 40px !important;
-  border: none;
-  border: 1px solid #fff;
-  border-radius: 90px;
+header .cv {
+  padding: 3px 10px !important;
+  border: 1px solid;
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
 }
 
-header div .bi {
-  color: #fff;
+header .cv:hover {
+  color: black;
+  background-color: white;
 }
 
 #education {
