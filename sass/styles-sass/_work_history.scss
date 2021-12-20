@@ -1,0 +1,43 @@
+#work_history{
+    background-image: url("../../img/computers.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    .underline_subtitle{
+        border: 1px solid white !important;
+        margin-bottom: 1rem !important;
+    } 
+    div{
+        a{
+            transition: all 500ms;
+            &:hover{
+                color: #ccc;
+            }
+            .work_box{
+                width: 310px;
+                background: #00000042;
+                border-radius: 10%;
+                cursor: pointer;
+                transition: all 500ms;
+                &:hover{
+                    font-size:1.05rem ;
+                    border: 1px solid white;
+                }
+                .img-work{
+                    width: 100%;
+    
+                    img{
+                        width: 100%;
+                        height: 150px;
+                    }
+                }
+    
+                p{
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}

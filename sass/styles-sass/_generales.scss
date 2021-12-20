@@ -1,0 +1,33 @@
+* {
+    padding: 0 !important;
+    margin: 0 !important;
+    text-decoration: none !important;
+    box-sizing: border-box !important;
+}
+
+a{
+    color:#fff;
+    font-family:  'Saira Condensed', sans-serif;
+    font-weight: 100;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    font-family:  'Saira Condensed', sans-serif;
+
+    main{
+        section{
+            .underline_subtitle{
+                display: block;
+                width: 61px;
+                border: 1px solid #2a2222 !important;
+                margin: 0 auto !important;
+                position: relative;
+                bottom: 4px;
+            }            
+        }
+    }
+}
